@@ -1,0 +1,23 @@
+{
+    "name": "login-register-profile",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "dev": "nodemon server.js",
+        "test": "echo \"Error: no test specified\"&& exit 1"
+    },
+    "author": "",
+    "license": "dugdh",
+    "dependencies": {
+        "bcrypt": "^3.0.4",
+        "body-parse": "^0.1.0",
+        "cors": "^2.8.5",
+        "express": "^4.16.4",
+        "jsonwebtoken":"^8.5.0",
+        "mysql": "^2.16.0",
+        "mysql2": "^1.6.5",
+        "nodemon": "^1.18.10",
+        "sequelize": "^4.42.1"
+    }
+}
